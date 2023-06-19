@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jangric</title>
+
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+		/>
+
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="container bg-dark py-6 px-6">
+				<div class="logo font-bold">
+					<a href="/" class="logo-link text-xl md:text-2xl"> Jangric </a>
+				</div>
+
+				<div class="navigation">
+					<ul class="navigation-links">
+						<input type="checkbox" id="checkbox_toggle" />
+						<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+						<div class="menu">
+							<li class="navigation-item">
+								<a href="" class="navigation-link">About Us</a>
+							</li>
+							<li class="navigation-item">
+								<a href="#blog" class="navigation-link">Catalog</a>
+							</li>
+							<li class="navigation-item">
+								<a href="#testimonials" class="navigation-link">Author</a>
+							</li>
+							<li class="navigation-item">
+								<a href="#contact" class="navigation-link">Contact Us</a>
+							</li>
+						</div>
+					</ul>
+				</div>
+
+				<div class="account">
+					<a href="" class="navigation-link">Login</a>
+					<a href="" class="btn btn-transparent-white">Sign Up</a>
+				</div>
+			</div>
+		</nav>
+
+		<section id="opening" class="bg-dark text-white">
+			<div class="container py-16 px-6">
+				<div class="title-group my-8">
+					<h1 class="h1 opening-title my-6">
+						Have A Pet That Is Unique And Rare In The World
+					</h1>
+					<p class="opening-description">
+						Have a pet that is unique and rare in the world at an affordable
+						price and also with extraordinary abilities as a medium
+					</p>
+				</div>
+				<a href="" class="btn btn-solid-orange">Explore Now</a>
+			</div>
+		</section>
+
+		<section id="featured-video" class="featured-video">
+			<div class="container py-32 px-6">
+				<div class="title-group">
+					<div class="about-us-left">
+						<h2 class="h2">Explore various interesting creatures</h2>
+					</div>
+					<div class="about-us-right">
+						<p class="description my-6 text-dark">
+							Explore various interesting creatures that exist in this world by
+							exploring tropical rain forests that make your life more colorful
+							and also learn about rare species.
+						</p>
+					</div>
+				</div>
+
+				<div class="video-poster">
+					<div class="video-poster-bg">
+						<button class="play-btn">
+							<div class="icon-wrapper bg-white">
+								<i class="play-icon"></i>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="stats" class="bg-gradient text-white">
+			<div class="container py-32 px-6">
+				<div class="stats-left">
+					<div class="title-group">
+						<h2 class="h2">Learn and own unique and rare animals</h2>
+						<p class="description my-6 text-light">
+							Explore various interesting creatures that exist in this world by
+							exploring tropical rain forests that make your life more colorful
+							and also learn about rare species.
+						</p>
+						<a href="" class="btn btn-solid-orange">Explore Now</a>
+					</div>
+
+					<div class="stats-container my-10">
+						<div class="stats-item">
+							<h3 class="h3 stats-value">1200K+</h3>
+							<p class="text-light">Endemic Speciest</p>
+						</div>
+						<div class="stats-item">
+							<h3 class="h3 stats-value">100+</h3>
+							<p class="text-light">Rare Speciest</p>
+						</div>
+						<div class="stats-item">
+							<h3 class="h3 stats-value">80+</h3>
+							<p class="text-light">Countries World</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="stats-right">
+					<div class="stats-bg"></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="blog">
+			<div class="container px-6">
+				<div class="blog-left">
+					<div class="title-group">
+						<h2 class="h2">Various types of insects are available</h2>
+						<p class="description my-6">
+							Explore various interesting creatures that exist in this world by
+							exploring tropical rain forests that make your life more
+						</p>
+					</div>
+				</div>
+				<div class="blog-right">
+					<a href="" class="btn btn-solid-orange text-white">Find More</a>
+				</div>
+
+				<div
+					class="blog-list-container my-10 carousel"
+					data-flickity='{ "freeScroll": true }'
+				>
+					<div class="carousel-cell">
+						<a href="" class="blog-list-item">
+							<div class="blog-list-item-img blog-list-item-img-bg1">
+								<img src="" alt="" />
+							</div>
+							<div class="blog-list-item-content">
+								<h4 class="h4">Butterfly Snapdragon</h4>
+								<p class="text-dark">African insects</p>
+								<div class="blog-list-item-reviews">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="reviews-value text-dark">(120K Review)</span>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="carousel-cell">
+						<a href="" class="blog-list-item">
+							<div class="blog-list-item-img blog-list-item-img-bg2">
+								<img src="" alt="" />
+							</div>
+							<div class="blog-list-item-content">
+								<h4 class="h4">Butterfly Snapdragon</h4>
+								<p class="text-dark">African insects</p>
+								<div class="blog-list-item-reviews">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="reviews-value text-dark">(120K Review)</span>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="carousel-cell">
+						<a href="" class="blog-list-item">
+							<div class="blog-list-item-img blog-list-item-img-bg3">
+								<img src="" alt="" />
+							</div>
+							<div class="blog-list-item-content">
+								<h4 class="h4">Butterfly Snapdragon</h4>
+								<p class="text-dark">African insects</p>
+								<div class="blog-list-item-reviews">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="reviews-value text-dark">(120K Review)</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="testimonials">
+			<div class="container px-6">
+				<div class="title-group text-center">
+					<h2 class="h2">Testimonials</h2>
+					<p class="description text-dark my-8">
+						What do they say after buying insects from us and share your
+						experience too
+					</p>
+				</div>
+				<div class="testimonials-content">
+					<div class="testimonials-bg">
+						<div class="testimonials-slider text-dark">
+							<div class="testimonials-slide-item p-8">
+								<div class="testimonials-text">
+									<p>
+										Very satisfied buying insects from this shop because the
+										service is very good and also the goods are very good, it
+										makes me love this butterfly even more, thank you jangcric.
+									</p>
+								</div>
+								<div class="testimonials-author-container">
+									<div class="testimonials-author-image"></div>
+									<div class="testimonials-author">
+										<h4 class="h4 testimonials-name text-black">
+											Fellicia Herdina
+										</h4>
+										<p class="testimonial-author-role">Customer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="bg-dark text-light">
+			<div class="container py-32 px-6">
+				<div class="title-group text-center">
+					<h2 class="h2 text-white">
+						Subcribe Our Email And Get Interesting Info
+					</h2>
+					<p class="description my-8">
+						Follow our social media pages and get interesting info that we share
+						every day for you, come join us soon.
+					</p>
+				</div>
+				<form class="contact-form" action="" method="get">
+					<input
+						type="email"
+						name="email"
+						class="text-black"
+						id="email"
+						placeholder="Enter your email address"
+					/>
+					<button class="btn-solid-orange">Subscribe</button>
+				</form>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-container py-32 px-6 container">
+				<div class="info-wrap">
+					<div class="info-col">
+						<h3 class="h3 footer-title">Jangric</h3>
+						<p class="text-dark">
+							Love books because by reading you will find the true meaning of
+							life as a window of knowledge, read now
+						</p>
+					</div>
+
+					<div class="info-col">
+						<p class="footer-title">Menu</p>
+						<ul class="text-dark">
+							<li class="navigation-item">
+								<a href="" class="navigation-link">About Us</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Company</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Categories</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Blog and news</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info-col">
+						<p class="footer-title">Product</p>
+						<ul class="text-dark">
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Features</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Pricing</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Doing Good</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">For Schools</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info-col">
+						<p class="footer-title">Support</p>
+						<ul class="text-dark">
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Help</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Contact Us</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">FAQ</a>
+							</li>
+							<li class="navigation-item">
+								<a href="" class="navigation-link">Privacy & Policy</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info-col">
+						<p class="footer-title">Office</p>
+						<div class="address-container">
+							<p class="footer-address text-dark">
+								Poland <br />Thornridge wetan syrase, Connecticut 35624
+							</p>
+						</div>
+						<div class="socials">
+							<ul class="socials-icons">
+								<li>
+									<a
+										href=""
+										class="socials-link"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img src="img/facebook.png" alt="" />
+									</a>
+								</li>
+
+								<li>
+									<a
+										href=""
+										class="socials-link"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img src="img/twitter.png" alt="" />
+									</a>
+								</li>
+
+								<li>
+									<a
+										href=""
+										class="socials-link"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img src="img/instagram.png" alt="" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<p class="copyright-text text-dark">
+						© 2023 Arcstress All rights reserved.
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
