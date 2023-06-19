@@ -477,6 +477,37 @@ footer .container {
     .blog-list-item {
         width: 400px;
     }
+
+    .featured-video-container .title-group {
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .featured-video-container .title-group h2 {
+        max-width: 70%;
+    }
+
+    .featured-video-container .title-group>* {
+        width: 50%;
+    }
+
+    .stats-container .title-group {
+        max-width: 40%;
+    }
+
+    .blog-title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog-title .blog-left {
+        max-width: 50%;
+    }
+
+    .blog-right {
+        display: flex;
+        align-items: flex-end;
+    }
 }
 
 @media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
